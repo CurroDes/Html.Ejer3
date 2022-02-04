@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <title>Documento</title>
+
+</head>
+<body>
+    <h2>Imagen:</h2>
+    <img src="monitor.jpg" alt="imagen de un monitor" width="500" height="350"/>
+    <p></p>
+    <h2>Imagen 2:</h2>
+<picture>
+    <img src="codigo.jpg" alt="imagen del código programado" width="500" height="350"/>
+</picture>
+<p></p>
+<h2>Video:</h2>
+<video autoplay muted src="binaryvideo.mp4" width="500" height="350" poster="monitor.jpg" controls></video>
+<p></p>
+<h2>Video Youtube:</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/km65H2gZ-4o"
+ title="YouTube video player" frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <p></p>
+ <h2>Audio:</h2>
+ <audio src="audio1.mp3" autoplay muted preload="none" controls></audio>
+
+</body>
